@@ -4,9 +4,8 @@
 <link rel="canonical" href="https://stephencotter.co.uk/">
 <meta name="author" content="Stephen Cotter">
 <meta name="robots" content="index,follow,max-image-preview:large">
-<meta name="theme-color" content="#14161b">
-<meta name="color-scheme" content="light">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%2314161b'/%3E%3Ctext x='6' y='23' font-family='Segoe UI,Arial' font-weight='700' font-size='20' fill='%23e8b53a'%3Es.%3C/text%3E%3C/svg%3E">
+<meta name="theme-color" content="#1b1b1b">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231b1b1b'/%3E%3Ctext x='5' y='23' font-family='Arial' font-weight='bold' font-size='20' fill='white'%3Es.%3C/text%3E%3C/svg%3E">
 <link rel="stylesheet" href="style.css">
 <script src="game.js" defer></script>
 <meta property="og:type" content="website">
@@ -19,7 +18,7 @@
 <meta property="og:image:type" content="image/png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Stephen Cotter, interactive CV. 137, 125 and 120 per cent to quota across three years, 4.6 million dollars closed, number one rep on team.">
+<meta property="og:image:alt" content="Stephen Cotter, interactive CV, with quota attainment and total closed.">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Stephen Cotter, Technical SaaS Sales">
 <meta name="twitter:description" content="Ten years selling B2B software, from a FTSE 250 cyber security consultancy to founding AE at a bootstrapped startup. Nine career chapters, hidden inside a game you do not have to play.">
@@ -29,22 +28,9 @@
 </script></head>
 <body><a id="skip-highlights" class="skip-link" href="#highlights">Skip the game and read my career story</a><main>
 <header><a class="brand" href="./" aria-label="Stephen Cotter home">s.</a><nav aria-label="Main navigation"><a href="Stephen-Cotter-CV.pdf" download>CV ↓</a><a href="#contact">Contact</a></nav></header>
-<section class="intro"><h1>Hi, I’m Stephen.</h1><p>I sell technical software and help companies grow.<br> 10+ years across cybersecurity, startups and enterprise SaaS.</p></section>
+<section class="intro"><h1>Hi, I’m Stephen.</h1><p>I sell technical software and help companies grow.<br>10+ years across cybersecurity, startups and enterprise SaaS.</p></section>
 <section id="arcade" class="arcade" aria-label="Career flight game"><div class="gamebar"><h2>A career in nine chapters.</h2><span id="count" aria-label="Career chapters discovered">0 / 9</span><span id="score" hidden>0</span><button id="pause" class="text-button" disabled>Pause</button></div>
-<div class="notification-dock">
-<p class="dock-caption" id="dock-caption">Pass a pipe. Turn the page.</p>
-<div id="trophy-toast" class="trophy-card" role="status" aria-live="polite" aria-atomic="true" hidden>
-<span class="trophy-icon" aria-hidden="true">
-<svg viewBox="0 0 32 36" fill="none"><path d="M8 3h16v12c0 6-3 10-8 10s-8-4-8-10V3Z" fill="currentColor"/><path d="M8 7H3v5c0 5 3 8 7 8M24 7h5v5c0 5-3 8-7 8" stroke="currentColor" stroke-width="3"/><path d="M14 24h4v7h6v3H8v-3h6v-7Z" fill="currentColor"/></svg>
-</span>
-<div class="trophy-body">
-<span id="toast-label" class="trophy-meta"></span>
-<strong id="toast-title" class="trophy-title"></strong>
-<span id="toast-detail" class="trophy-detail"></span>
-</div>
-</div>
-</div>
-<ol class="rail" id="rail" aria-label="Career chapters unlocked"></ol>
+<div class="notification-dock"><p class="dock-caption" id="dock-caption">Pass a pipe. Turn the page.</p><div id="trophy-toast" class="trophy-toast" role="status" aria-live="polite" aria-atomic="true" hidden><span class="toast-medal" aria-hidden="true"><svg viewBox="0 0 32 36" fill="none"><path d="M8 3h16v12c0 6-3 10-8 10s-8-4-8-10V3Z" fill="currentColor"/><path d="M8 7H3v5c0 5 3 8 7 8M24 7h5v5c0 5-3 8-7 8" stroke="currentColor" stroke-width="3"/><path d="M14 24h4v7h6v3H8v-3h6v-7Z" fill="currentColor"/></svg></span><div class="toast-text"><span id="toast-label" class="toast-label"></span><strong id="toast-title"></strong><span id="toast-detail" class="toast-detail"></span></div></div></div>
 <div class="stage"><canvas id="game" width="960" height="440" tabindex="-1" aria-label="Career flight. Tap or press Space or Arrow Up to flap. The game starts on your first flap."></canvas><p id="ready-hint" class="ready-hint" hidden>Tap or press Space to start.</p><div id="overlay" class="overlay" role="group" aria-labelledby="overlay-title" aria-describedby="overlay-copy"><div class="overlay-card"><span id="overlay-label" class="eyebrow">FROM CYBERSECURITY TO AI</span><h2 id="overlay-title">Fancy a quick game?</h2><p id="overlay-copy">Nine pipes. Nine moments that shaped my career.</p><a id="finish-contact" class="contact-button" href="mailto:stephencotter1990@gmail.com" hidden>Email Stephen ↗</a><button id="action" class="primary">Play →</button><p id="overlay-tip" class="small">Tap or Space to flap</p></div></div></div>
 <div class="controls"><span>Tap / Space to flap · P to pause</span><details class="options"><summary>Options</summary><div><button id="sound" class="text-button" aria-pressed="false">Sound off</button><label><input id="assist" type="checkbox" checked> Easy mode</label></div></details></div></section>
 <p class="read-story"><a href="#highlights">Or read the story ↓</a></p>

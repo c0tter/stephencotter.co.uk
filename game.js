@@ -69,27 +69,6 @@ let soundEnabled = false, audioContext = null;
 const birdPixels = ['.....kkkkkk.....','...kkyyyyyykk...','..kyyyyywwwwk...','.kyyyyywwwwwwk..','.kyyyyywwkwwwk..','kyyyyyywwkwwwk..','kyyyyyyywwwwwk..','kyyyyyyyyykkkkkk','.kyyyyyykkrrrrrk','..kyyyyyykkkkkk.','...kkoooookk....','.....kkkkk......'];
 const palette = {k:'#393629', y:'#f6cf42', w:'#fffced', r:'#e57940', o:'#eaaa32'};
 const active = () => state === 'playing' || state === 'finishing';
-
-const rail = $('rail');
-if (rail) {
-  chapters.forEach((c, i) => {
-    const li = document.createElement('li');
-    li.innerHTML = '<span class="bar"></span><span class="who"></span>';
-    // only label a company once, on its first chapter, so the rail stays readable
-    li.querySelector('.who').textContent = (i === 0 || chapters[i-1].company !== c.company) ? c.company : '';
-    li.title = `${i+1}. ${c.company} ${c.date}: ${c.metric}`;
-    rail.appendChild(li);
-  });
-}
-function paintRail() {
-  if (!rail) return;
-  const live = runStart + score;
-  [...rail.children].forEach((li, i) => {
-    li.classList.toggle('on', i < unlocked);
-    li.classList.toggle('now', i === live - 1 && active());
-  });
-}
-
 function stopLoop() {
   if (raf !== null) cancelAnimationFrame(raf);
   raf = null; accumulator = 0;
@@ -98,7 +77,6 @@ function startLoop() {
   stopLoop(); last = performance.now(); raf = requestAnimationFrame(tick);
 }
 function refresh() {
-  paintRail();
   $('score').textContent = score;
   $('count').textContent = `${unlocked} / ${total}`;
 }
@@ -198,11 +176,11 @@ function award() {
   if (index < 0 || index >= total) return;
   const c = chapters[index], earned = index >= unlocked;
   unlocked = Math.max(unlocked, index+1);
-  $('toast-label').textContent = `Chapter ${index+1} of ${total} · ${c.company} · ${c.date}`;
+  $('toast-label').textContent = `${index+1} / ${total} · ${c.company} · ${c.date}`;
   $('toast-title').textContent = c.metric;
   $('toast-detail').textContent = c.body;
   $('trophy-toast').hidden = false; $('dock-caption').hidden = true;
-  if (!reduced && $('trophy-toast').animate) $('trophy-toast').animate([{opacity:0,transform:'translateY(10px) scale(.97)'},{opacity:1,transform:'translateY(0) scale(1)'}], {duration:300,easing:'cubic-bezier(.2,.8,.2,1)'});
+  if (!reduced && $('trophy-toast').animate) $('trophy-toast').animate([{opacity:.3,transform:'translateX(12px)'},{opacity:1,transform:'translateX(0)'}], {duration:220});
   refresh(); chime();
 }
 $('action').onclick = () => state === 'paused' ? resume() : restart();
