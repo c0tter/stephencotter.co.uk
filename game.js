@@ -77,6 +77,7 @@ function startLoop() {
   stopLoop(); last = performance.now(); raf = requestAnimationFrame(tick);
 }
 function refresh() {
+  const done = $('completion'); if (done) done.hidden = unlocked < total;
   $('score').textContent = score;
   $('count').textContent = `${unlocked} / ${total}`;
 }
@@ -123,7 +124,11 @@ function restart() {
   bird = {x:Math.round(W*.24), y:ground*.48, v:0};
   resumeState = 'playing'; state = 'armed';
   addPipe(bird.x + 330); refresh();
-  $('arcade').scrollIntoView({block:'start', behavior:'instant'});
+  // only pull the game into view if it is not already fully visible, and never jump
+  const box = $('arcade').getBoundingClientRect();
+  if (box.top < 0 || box.bottom > innerHeight) {
+    $('arcade').scrollIntoView({block:'center', behavior: reduced ? 'instant' : 'smooth'});
+  }
   arm();
 }
 function flap() {
@@ -180,6 +185,7 @@ function award() {
   $('toast-title').textContent = c.metric;
   $('toast-detail').textContent = c.body;
   $('trophy-toast').hidden = false; $('dock-caption').hidden = true;
+  document.querySelector('.notification-dock').classList.add('has-trophy');
   if (!reduced && $('trophy-toast').animate) $('trophy-toast').animate([{opacity:.3,transform:'translateX(12px)'},{opacity:1,transform:'translateX(0)'}], {duration:220});
   refresh(); chime();
 }

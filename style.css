@@ -1,4 +1,4 @@
-:root{font-family:Arial,Helvetica,sans-serif;color:#202220;background:#fff;font-synthesis:none;--muted:#656a65;--line:#e3e7e1}*{box-sizing:border-box}[hidden]{display:none!important}body{margin:0}main{max-width:1020px;margin:auto;padding:0 44px}a{color:inherit;text-underline-offset:5px}button,input{font:inherit}button{cursor:pointer}button,a,input{-webkit-tap-highlight-color:transparent}button:focus-visible,a:focus-visible,canvas:focus-visible,input:focus-visible,summary:focus-visible{outline:3px solid #567b4b;outline-offset:5px}.skip-link{position:absolute;top:8px;left:20px;background:white;padding:14px;z-index:50;transform:translateY(-150%)}.skip-link:focus{transform:translateY(0)}header{display:flex;justify-content:space-between;align-items:center;padding:28px 0}.brand{font-size:43px;line-height:1;font-weight:800;letter-spacing:-4px;text-decoration:none}nav{display:flex;gap:30px;font-size:15px}nav a{padding:12px 0;text-decoration:none}nav a:hover{text-decoration:underline}.intro{max-width:780px;padding:62px 0 58px}h1{font-size:clamp(40px,5.4vw,60px);line-height:1.1;font-weight:700;letter-spacing:-2.4px;margin:0 0 22px}.intro p{font-size:clamp(19px,2.4vw,25px);line-height:1.6;letter-spacing:-.4px;margin:0;color:#4d534d}.arcade{scroll-margin-top:10px}.gamebar{display:flex;gap:18px;align-items:center;min-height:52px}.gamebar h2{font-size:17px;font-weight:500;letter-spacing:-.2px;margin:0 auto 0 0}.gamebar #count{font-size:14px;white-space:nowrap;color:var(--muted)}.text-button{min-height:44px;background:none;border:0;color:inherit;font-size:14px;padding:10px 4px;text-decoration:underline;text-underline-offset:4px}.text-button:disabled{opacity:.35;cursor:default}.notification-dock{min-height:105px;display:flex;align-items:center;justify-content:flex-end;padding:10px 16px;background:#f7f9f5;border-radius:10px 10px 0 0}.dock-caption{font-size:15px;color:var(--muted);margin:0 auto 0 0}.trophy-toast{display:flex;align-items:center;gap:14px;width:100%;pointer-events:none}.toast-medal{color:#62784d;flex:0 0 25px}.toast-medal svg{width:25px;height:30px}.toast-text{display:flex;flex-direction:column;gap:4px;min-width:0}.toast-label{font-size:11px;color:var(--muted)}.toast-text strong{font-size:17px;line-height:1.3;font-weight:600;letter-spacing:-.2px}.toast-detail{font-size:13px;line-height:1.4;color:var(--muted)}.stage{position:relative;border-radius:0 0 10px 10px;overflow:clip}canvas{display:block;width:100%;height:clamp(260px,49svh,420px);image-rendering:pixelated;touch-action:manipulation}.overlay{position:absolute;inset:0;display:grid;place-items:center;padding:18px;overflow:auto}.overlay-card{width:min(100%,370px);padding:24px;text-align:center;background:#fffffff2;border-radius:10px}.eyebrow{font-size:11px;letter-spacing:.8px;color:var(--muted)}.overlay h2{font-size:29px;line-height:1.15;letter-spacing:-1px;margin:15px 0;font-weight:600}.overlay p{font-size:15px;line-height:1.6;color:var(--muted);margin:12px 0}.primary,.contact-button{display:inline-flex;justify-content:center;align-items:center;min-height:46px;background:#202220;border:0;border-radius:5px;color:white;text-decoration:none;padding:13px 24px;font-size:15px}.primary:hover,.contact-button:hover{background:#41603b}.primary:active{transform:translateY(1px)}#finish-contact{display:flex;margin:12px 0}.overlay-card:has(#finish-contact:not([hidden])) .primary{background:none;color:#202220;text-decoration:underline}.overlay .small{font-size:12px;margin:13px 0 0}.ready-hint{position:absolute;top:30%;left:20px;right:20px;text-align:center;background:#fffffff2;padding:15px;border-radius:6px;font-size:17px;line-height:1.5;pointer-events:none}.controls{display:flex;align-items:start;justify-content:space-between;gap:16px;min-height:54px;padding:10px 0;font-size:13px;color:var(--muted)}.controls>span{padding:10px 0}.options{font-size:13px}.options>summary{cursor:pointer;min-height:44px;padding:10px 0;text-align:right}.options>div{display:flex;gap:20px;align-items:center;flex-wrap:wrap;justify-content:flex-end}.options label{display:flex;gap:8px;align-items:center;min-height:44px}input[type=checkbox]{width:18px;height:18px;accent-color:#4f7045}.contact{padding:70px 0 62px;scroll-margin-top:25px}.contact h2{font-size:36px;letter-spacing:-1.2px;line-height:1.2;margin:0 0 18px}.email{font-size:clamp(17px,2.5vw,23px);line-height:1.6;text-decoration:none;border-bottom:1px solid #b2b7b0;overflow-wrap:anywhere}.contact-tools{display:flex;align-items:center;gap:22px;margin-top:20px;font-size:14px}.contact-tools>a{padding:12px 0}.contact-tools .text-button{padding-left:0}#copy-status{font-size:13px;color:var(--muted);line-height:1.5;margin:5px 0}#copy-fallback{font-size:16px;padding:10px;width:100%}footer{font-size:12px;color:var(--muted);padding:20px 0 28px}@media(max-width:600px){main{padding:0 20px}header{padding:22px 0}.brand{font-size:37px}nav{gap:24px;font-size:14px}.intro{padding:36px 0 38px}h1{font-size:42px;letter-spacing:-1.8px;margin-bottom:18px}.intro p{font-size:20px;line-height:1.55}.intro p br{display:none}.gamebar{gap:12px}.gamebar h2{font-size:15px}.gamebar #count{font-size:13px}.gamebar .text-button{font-size:13px}.notification-dock{min-height:112px;padding:12px}.toast-text strong{font-size:15px}.toast-detail{font-size:12px}.toast-label{font-size:11px}.overlay{padding:14px;align-items:start}.overlay-card{margin:auto;padding:20px}.overlay h2{font-size:27px}.controls{font-size:12px;gap:12px}.options>div{display:block}.contact{padding:48px 0 38px}.contact h2{font-size:33px}}@media(max-height:560px){canvas{height:clamp(130px,calc(100svh - 230px),280px)}.overlay-card{padding:12px}.overlay h2{font-size:24px;margin:8px 0}.overlay p{margin:8px 0}.overlay .small{display:none}.notification-dock{min-height:100px}}@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}@media print{header,.arcade,.skip-link,.contact-tools,#copy-status,#copy-fallback,footer{display:none!important}main{max-width:none;padding:0}.intro{padding:10px 0 25px}h1{font-size:28pt}.intro p{font-size:13pt}.contact{padding:25px 0}.contact h2{font-size:20pt}}
+:root{font-family:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;-webkit-font-smoothing:antialiased;color:#202220;background:#fff;font-synthesis:none;--muted:#656a65;--line:#e3e7e1}*{box-sizing:border-box}[hidden]{display:none!important}body{margin:0}main{max-width:1020px;margin:auto;padding:0 44px}a{color:inherit;text-underline-offset:5px}button,input{font:inherit}button{cursor:pointer}button,a,input{-webkit-tap-highlight-color:transparent}button:focus-visible,a:focus-visible,canvas:focus-visible,input:focus-visible,summary:focus-visible{outline:3px solid #567b4b;outline-offset:5px}.skip-link{position:absolute;top:8px;left:20px;background:white;padding:14px;z-index:50;transform:translateY(-150%)}.skip-link:focus{transform:translateY(0)}header{display:flex;justify-content:space-between;align-items:center;padding:28px 0}.brand{font-size:43px;line-height:1;font-weight:800;letter-spacing:-4px;text-decoration:none}nav{display:flex;gap:30px;font-size:15px}nav a{padding:12px 0;text-decoration:none}nav a:hover{text-decoration:underline}.intro{max-width:780px;padding:62px 0 58px}h1{font-size:clamp(40px,5.4vw,60px);line-height:1.1;font-weight:700;letter-spacing:-2.4px;margin:0 0 22px}.intro p{font-size:clamp(19px,2.4vw,25px);line-height:1.6;letter-spacing:-.4px;margin:0;color:#4d534d}.arcade{scroll-margin-top:10px}.gamebar{display:flex;gap:18px;align-items:center;min-height:52px}.gamebar h2{font-size:17px;font-weight:500;letter-spacing:-.2px;margin:0 auto 0 0}.gamebar #count{font-size:14px;white-space:nowrap;color:var(--muted)}.text-button{min-height:44px;background:none;border:0;color:inherit;font-size:14px;padding:10px 4px;text-decoration:underline;text-underline-offset:4px}.text-button:disabled{opacity:.35;cursor:default}.notification-dock{min-height:0;display:flex;align-items:center;justify-content:flex-end;padding:11px 16px;background:#f7f9f5;border-radius:10px 10px 0 0;transition:min-height .3s ease}.dock-caption{font-size:15px;color:var(--muted);margin:0 auto 0 0}.trophy-toast{display:flex;align-items:center;gap:14px;width:100%;pointer-events:none}.toast-medal{color:#62784d;flex:0 0 25px}.toast-medal svg{width:25px;height:30px}.toast-text{display:flex;flex-direction:column;gap:4px;min-width:0}.toast-label{font-size:11px;color:var(--muted)}.toast-text strong{font-size:17px;line-height:1.3;font-weight:600;letter-spacing:-.2px}.toast-detail{font-size:13px;line-height:1.4;color:var(--muted)}.stage{position:relative;border-radius:0 0 10px 10px;overflow:clip}canvas{display:block;width:100%;height:clamp(260px,49svh,420px);image-rendering:pixelated;touch-action:manipulation}.overlay{position:absolute;inset:0;display:grid;place-items:center;padding:18px;overflow:auto}.overlay-card{width:min(100%,370px);padding:24px;text-align:center;background:#fffffff2;border-radius:10px}.eyebrow{font-size:11px;letter-spacing:.8px;color:var(--muted)}.overlay h2{font-size:29px;line-height:1.15;letter-spacing:-1px;margin:15px 0;font-weight:600}.overlay p{font-size:15px;line-height:1.6;color:var(--muted);margin:12px 0}.primary,.contact-button{display:inline-flex;justify-content:center;align-items:center;min-height:46px;background:#202220;border:0;border-radius:5px;color:white;text-decoration:none;padding:13px 24px;font-size:15px}.primary:hover,.contact-button:hover{background:#41603b}.primary:active{transform:translateY(1px)}#finish-contact{display:flex;margin:12px 0}.overlay-card:has(#finish-contact:not([hidden])) .primary{background:none;color:#202220;text-decoration:underline}.overlay .small{font-size:12px;margin:13px 0 0}.ready-hint{position:absolute;top:30%;left:20px;right:20px;text-align:center;background:#fffffff2;padding:15px;border-radius:6px;font-size:17px;line-height:1.5;pointer-events:none}.controls{display:flex;align-items:start;justify-content:space-between;gap:16px;min-height:54px;padding:10px 0;font-size:13px;color:var(--muted)}.controls>span{padding:10px 0}.options{font-size:13px}.options>summary{cursor:pointer;min-height:44px;padding:10px 0;text-align:right}.options>div{display:flex;gap:20px;align-items:center;flex-wrap:wrap;justify-content:flex-end}.options label{display:flex;gap:8px;align-items:center;min-height:44px}input[type=checkbox]{width:18px;height:18px;accent-color:#4f7045}.contact{padding:70px 0 62px;scroll-margin-top:25px}.contact h2{font-size:36px;letter-spacing:-1.2px;line-height:1.2;margin:0 0 18px}.email{font-size:clamp(17px,2.5vw,23px);line-height:1.6;text-decoration:none;border-bottom:1px solid #b2b7b0;overflow-wrap:anywhere}.contact-tools{display:flex;align-items:center;gap:22px;margin-top:20px;font-size:14px}.contact-tools>a{padding:12px 0}.contact-tools .text-button{padding-left:0}#copy-status{font-size:13px;color:var(--muted);line-height:1.5;margin:5px 0}#copy-fallback{font-size:16px;padding:10px;width:100%}footer{font-size:12px;color:var(--muted);padding:20px 0 28px}@media(max-width:600px){main{padding:0 20px}header{padding:22px 0}.brand{font-size:37px}nav{gap:24px;font-size:14px}.intro{padding:36px 0 38px}h1{font-size:42px;letter-spacing:-1.8px;margin-bottom:18px}.intro p{font-size:20px;line-height:1.55}.intro p br{display:none}.gamebar{gap:12px}.gamebar h2{font-size:15px}.gamebar #count{font-size:13px}.gamebar .text-button{font-size:13px}.notification-dock{min-height:112px;padding:12px}.toast-text strong{font-size:15px}.toast-detail{font-size:12px}.toast-label{font-size:11px}.overlay{padding:14px;align-items:start}.overlay-card{margin:auto;padding:20px}.overlay h2{font-size:27px}.controls{font-size:12px;gap:12px}.options>div{display:block}.contact{padding:48px 0 38px}.contact h2{font-size:33px}}@media(max-height:560px){canvas{height:clamp(130px,calc(100svh - 230px),280px)}.overlay-card{padding:12px}.overlay h2{font-size:24px;margin:8px 0}.overlay p{margin:8px 0}.overlay .small{display:none}.notification-dock{min-height:100px}}@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}@media print{header,.arcade,.skip-link,.contact-tools,#copy-status,#copy-fallback,footer{display:none!important}main{max-width:none;padding:0}.intro{padding:10px 0 25px}h1{font-size:28pt}.intro p{font-size:13pt}.contact{padding:25px 0}.contact h2{font-size:20pt}}
 
 /* A connected career timeline: company initials are typographic markers, not logos. */
 .career{max-width:740px;margin:66px auto 0;padding-top:38px;border-top:1px solid var(--line);scroll-margin-top:30px}
@@ -23,3 +23,205 @@
 @media print{.career{margin-top:0;padding-top:15px}.timeline>li{break-inside:avoid;padding-bottom:20px}.career-cv{display:none}.career-heading h2{font-size:22pt}}
 
 .read-story{margin:4px 0 0;text-align:center;font-size:14px;color:var(--muted)}.read-story a{display:inline-block;padding:10px}.small{font-size:13px;line-height:1.6;color:var(--muted)}
+
+/* dock only opens up once something has been won */
+
+/* trophy reads as an award, not a status line */
+.trophy-toast{display:flex;align-items:flex-start;gap:15px;width:100%;max-width:640px;margin-left:auto;
+ background:#fff;border:1px solid #ecdcb4;border-left:4px solid #c8952a;border-radius:11px;
+ padding:14px 18px;box-shadow:0 8px 22px rgba(32,34,32,.08);pointer-events:none}
+.toast-medal{flex:0 0 42px;height:42px;display:grid;place-items:center;border-radius:50%;
+ background:#fdf5e4;border:1px solid #f0dfb8;color:#c8952a}
+.toast-medal svg{width:21px;height:24px}
+.toast-text{display:flex;flex-direction:column;gap:4px;min-width:0}
+.toast-label{font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#b3841f}
+#toast-title{font-size:19px;font-weight:700;letter-spacing:-.4px;line-height:1.25}
+.toast-detail{font-size:14px;line-height:1.5;color:var(--muted)}
+
+/* proof row, in the existing quiet style */
+.proof{list-style:none;display:grid;grid-template-columns:repeat(3,1fr);gap:0;margin:0 0 54px;padding:0;max-width:780px;
+ border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.proof li{padding:20px 26px 20px 0}
+.proof li+li{border-left:1px solid var(--line);padding-left:26px}
+.proof strong{display:block;font-size:20px;font-weight:700;letter-spacing:-.5px}
+.proof span{display:block;margin-top:6px;font-size:13.5px;line-height:1.45;color:var(--muted)}
+@media(max-width:700px){.proof{grid-template-columns:1fr}.proof li{padding:16px 0}
+ .proof li+li{border-left:0;border-top:1px solid var(--line);padding-left:0}}
+
+/* the payoff for finishing */
+.completion{max-width:740px;margin:26px auto 0;padding:26px 28px;background:#f7f9f5;
+ border:1px solid #dfe7dc;border-radius:12px}
+.completion h2{font-size:27px;letter-spacing:-.8px;margin:9px 0 10px}
+.completion p{font-size:15.5px;line-height:1.6;color:var(--muted);margin:0 0 18px;max-width:560px}
+
+h1,h2,h3{font-family:'Inter Display',Inter,ui-sans-serif,-apple-system,'Segoe UI',Roboto,sans-serif}
+footer{padding-bottom:40px}
+
+/* cascade fix: later top-level rules set the dock to 132px / 155px, so the
+   collapsed default and the expanded state are both declared last. */
+.notification-dock{min-height:0}
+.notification-dock.has-trophy{min-height:118px;padding:14px 16px;background:linear-gradient(180deg,#fbfcfa,#f4f7f2)}
+@media(max-width:600px){
+ .notification-dock{min-height:0}
+ .notification-dock.has-trophy{min-height:152px}
+}
+
+/* ============ v2 corrections, declared last so they win the cascade ============ */
+
+/* 1. ONE column. every section shares the same left and right edge. */
+main{max-width:900px;padding:0 40px}
+.intro,.proof,.career,.contact,.arcade,.completion,.read-story{max-width:none;width:100%;margin-left:0;margin-right:0}
+.career{margin:58px 0 0}
+.contact{margin:0}
+.intro p{max-width:620px}          /* keep a readable line length inside the full-width block */
+.career-heading>p{max-width:620px}
+
+/* 2. less headspace before the name */
+header{padding:22px 0}
+.intro{padding:30px 0 34px}
+
+/* 3. the dock stops being a grey slab: same ground as the page, so growing is unnoticeable */
+.notification-dock{background:transparent;border:0;border-radius:0;padding:0 0 10px;min-height:0}
+.notification-dock.has-trophy{background:transparent;padding:0 0 12px;min-height:0}
+.dock-caption{font-size:13px;color:#8d948d;letter-spacing:.2px}
+
+/* 4. a colour scheme, used on purpose rather than everywhere */
+:root{--brand:#2f6b46;--brand-soft:#e8f2ea;--sand:#b8860b;--sand-soft:#fbf3e0;--plum:#6b4a7d}
+
+
+.section-kicker{color:var(--brand)}
+.evidence{color:var(--brand)}
+.proof strong{color:var(--ink,#202220)}
+.proof li:nth-child(1) strong{color:var(--brand)}
+.proof li:nth-child(2) strong{color:var(--sand)}
+.proof li:nth-child(3) strong{color:var(--plum)}
+
+/* company marks carry their own colour */
+.company-mark{font-weight:800}
+.company-mark.synthesia{background:#efeafc;color:#5b3fd6;border-color:#ddd2f7}
+.company-mark.bant{background:#e6f4f4;color:#127b7f;border-color:#cfe9e9}
+.company-mark.usecure{background:#e9f2fb;color:#1f69b0;border-color:#d4e5f6}
+.company-mark.ncc{background:#fdecec;color:#b32026;border-color:#f7d5d6}
+
+/* highlight sits UNDER the text, never through it */
+.hl,.hl-sand{background:none;text-decoration:underline;text-decoration-thickness:3px;
+ text-underline-offset:6px;text-decoration-skip-ink:none}
+.hl{text-decoration-color:rgba(47,107,70,.45)}
+.hl-sand{text-decoration-color:rgba(184,134,11,.55)}
+h1 .hl,h1 .hl-sand,.intro p .hl,.intro p .hl-sand{text-decoration-thickness:4px;text-underline-offset:8px}
+
+/* Bricolage Grotesque, self-hosted (SIL Open Font License), latin subset, 77KB */
+@font-face{font-family:'Bricolage Grotesque';src:url(bricolage.woff2) format('woff2');
+ font-weight:400 800;font-style:normal;font-display:swap}
+h1,h2,h3,.brand,#toast-title,.proof strong,.completion h2{
+ font-family:'Bricolage Grotesque',Inter,ui-sans-serif,-apple-system,'Segoe UI',sans-serif}
+h1{font-weight:800;letter-spacing:-2px}
+h2,h3{font-weight:700;letter-spacing:-.8px}
+.brand{font-weight:800}
+.proof strong{font-weight:700;letter-spacing:-.6px}
+#toast-title{font-weight:700}
+
+/* ============ typography audit + tighter top ============ */
+
+/* nav sits alone now the monogram is gone */
+header{justify-content:flex-end;padding:14px 0}
+.intro{padding:14px 0 34px}
+
+/* everything that was too small, moved up a step */
+.intro p{font-size:23px;line-height:1.62}
+.proof strong{font-size:23px}
+.proof span{font-size:15px;line-height:1.5;
+ font-family:Inter,ui-sans-serif,-apple-system,'Segoe UI',sans-serif}
+.gamebar h2{font-size:20px}
+.dock-caption{font-size:14px}
+.career-heading>p{font-size:19px;line-height:1.6}
+.timeline h3{font-size:24px}
+.evidence{font-size:14.5px;line-height:1.6}
+.dates{font-size:14px}
+.career-cv,.read-story a{font-size:15px}
+footer{font-size:13px}
+.contact p,.completion p{font-size:16.5px}
+.trophy-detail{font-size:15px}
+#toast-title{font-size:20px}
+.toast-label{font-size:12px}
+
+/* match the specificity of the earlier rules so these actually win */
+.timeline .role{font-size:15px;line-height:1.5}
+.timeline article>p:not(.role){font-size:18px;line-height:1.72;max-width:640px}
+@media(max-width:600px){
+ .timeline article>p:not(.role){font-size:16.5px;line-height:1.68}
+ .timeline .role{font-size:14px}
+}
+
+/* ================= "fix all" pass ================= */
+
+/* 4. header balanced again */
+header{justify-content:space-between;align-items:center;padding:16px 0}
+.wordmark{font-family:'Bricolage Grotesque',Inter,sans-serif;font-weight:800;font-size:17px;
+ letter-spacing:-.4px;color:var(--ink,#202220);text-decoration:none}
+
+/* 1 + 2 + 3. hero */
+.intro{display:flex;align-items:center;gap:44px;padding:26px 0 40px}
+.intro-text{flex:1;min-width:0}
+.role-line{font-family:Inter,sans-serif;font-size:13px;font-weight:600;letter-spacing:1.3px;
+ text-transform:uppercase;color:#2f6b46;margin:0 0 14px}
+.intro h1{margin:0 0 16px}
+.intro p:not(.role-line){font-size:23px;line-height:1.6;max-width:600px;margin:0}
+.intro-actions{display:flex;align-items:center;gap:22px;flex-wrap:wrap;margin-top:26px}
+.cv-button{display:inline-flex;align-items:center;min-height:48px;padding:13px 24px;
+ background:#202220;color:#fff;text-decoration:none;border-radius:9px;
+ font-family:Inter,sans-serif;font-size:15.5px;font-weight:600}
+.cv-button:hover{background:#2f6b46}
+.intro-email{font-size:15.5px;color:#4a504a;text-underline-offset:4px}
+.portrait{flex:0 0 168px;margin:0}
+.portrait img{width:168px;height:168px;border-radius:50%;object-fit:cover;display:block;
+ border:1px solid var(--line)}
+@media(max-width:760px){.intro{display:block}.portrait{margin:26px 0 0}}
+
+/* 5. one consistent vertical rhythm; the journey/contact collision is fixed */
+.arcade{margin-top:8px}
+.career{margin:72px 0 0;padding-top:44px}
+.contact{margin-top:72px;padding:44px 0 34px;border-top:1px solid var(--line)}
+.read-story{margin:26px 0 0}
+
+/* 6. dates now sit with the role line */
+.timeline .role{display:flex;gap:12px;align-items:baseline;flex-wrap:wrap;font-size:15px;margin:0 0 12px}
+.timeline .dates{font-size:14px;font-weight:600;color:#2f6b46;white-space:nowrap}
+.role-heading{display:block}
+
+/* 7. one colour, emphasis carried by weight */
+.proof li:nth-child(1) strong,
+.proof li:nth-child(2) strong,
+.proof li:nth-child(3) strong{color:#202220}
+.proof strong{font-weight:800}
+
+/* 8. the game heading reads as a section title */
+.gamebar h2.game-title{font-size:27px;font-weight:700;letter-spacing:-.8px}
+
+/* role line must not inherit the prose max-width, and stays on one line */
+.intro .role-line{max-width:none;font-size:12.5px;letter-spacing:1.1px;white-space:nowrap}
+.intro p:not(.role-line){max-width:640px}
+.intro p br{display:inline}
+/* never let a highlighted phrase break across two lines */
+.hl,.hl-sand{white-space:nowrap}
+@media(max-width:760px){.intro .role-line{white-space:normal;font-size:12px}
+ .hl,.hl-sand{white-space:normal}}
+
+/* the trophy floats over the game: no layout shift mid-flight */
+.stage{position:relative}
+.notification-dock,.notification-dock.has-trophy{min-height:0;padding:0 0 10px;background:transparent}
+.trophy-toast{position:absolute;top:14px;right:14px;left:auto;z-index:6;width:min(420px,calc(100% - 28px));
+ max-width:420px;margin:0;background:rgba(255,255,255,.97);backdrop-filter:blur(2px);
+ box-shadow:0 10px 30px rgba(32,34,32,.16)}
+@media(max-width:600px){.trophy-toast{top:10px;right:10px;width:calc(100% - 20px);padding:12px 14px}
+ #toast-title{font-size:17px}.trophy-detail{font-size:14px}}
+
+/* dock height is now fixed, so hiding the caption cannot move the canvas */
+.notification-dock,.notification-dock.has-trophy{min-height:30px;height:30px;padding:0 0 10px;
+ background:transparent;align-items:flex-start}
+
+/* no header any more: the page starts on the role line */
+main{padding-top:52px}
+.intro{padding:0 0 40px}
+.intro .role-line{margin:0 0 26px}
+@media(max-width:600px){main{padding-top:34px}.intro .role-line{margin-bottom:20px}}
