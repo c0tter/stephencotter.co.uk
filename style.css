@@ -227,3 +227,12 @@ main{padding-top:52px}
 @media(max-width:600px){main{padding-top:34px}.intro .role-line{margin-bottom:20px}}
 .company-mark{overflow:hidden;padding:0}.company-mark img{width:100%;height:100%;display:block;border-radius:50%;object-fit:cover}
 .proof strong{font-size:32px;line-height:1.05;letter-spacing:-1px}@media(max-width:600px){.proof strong{font-size:28px}}
+.role-line .emo{margin-right:5px;font-size:1.15em;vertical-align:-1px}
+h1 .wave{display:inline-block;transform-origin:70% 75%;animation:wave 2.2s ease-in-out .6s 2}
+@keyframes wave{0%,60%,100%{transform:rotate(0)}10%,30%{transform:rotate(14deg)}20%{transform:rotate(-8deg)}40%{transform:rotate(-4deg)}50%{transform:rotate(10deg)}}
+@media(prefers-reduced-motion:reduce){h1 .wave{animation:none}}
+.intro p .hl,.intro p .hl-sand{text-decoration:none;font-weight:650;padding:0 4px;margin:0 -2px;border-radius:3px;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+.intro p .hl{color:#1d5c36;background:linear-gradient(180deg,transparent 52%,rgba(76,196,120,.38) 52%)}
+.intro p .hl-sand{color:#8a5800;background:linear-gradient(180deg,transparent 52%,rgba(250,186,40,.45) 52%)}
+h1 .wave{font-size:.82em}
+h1 .nowrap{white-space:nowrap}
