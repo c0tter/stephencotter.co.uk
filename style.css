@@ -238,3 +238,7 @@ h1 .wave{font-size:.82em}
 h1 .nowrap{white-space:nowrap}
 .portrait img{background:radial-gradient(circle at 50% 42%,#f3f8f4 0,#dcebe1 100%);border:3px solid #fff;box-shadow:0 0 0 1px #d6e4da,0 10px 28px rgba(32,34,32,.12)}
 @media(max-width:760px){.intro{display:flex;flex-direction:column;align-items:flex-start;gap:0}.portrait{order:-1;flex:none;margin:0 0 18px}.portrait img{width:92px;height:92px}}
+.role-line .seg{white-space:nowrap}.role-line .sep{margin:0 .45em}
+@media(max-width:760px){.portrait{display:none}.role-line{text-align:center;line-height:1.9}}
+@media(max-width:480px){.role-line .seg{display:block}.role-line .sep{display:none}}
+@media(max-width:380px){.role-line{letter-spacing:.04em;font-size:11px}}
