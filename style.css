@@ -242,3 +242,11 @@ h1 .nowrap{white-space:nowrap}
 @media(max-width:760px){.portrait{display:none}.role-line{text-align:center;line-height:1.9}}
 @media(max-width:480px){.role-line .seg{display:block}.role-line .sep{display:none}}
 @media(max-width:380px){.role-line{letter-spacing:.04em;font-size:11px}}
+
+/* References: embedded Snoop tweet (24 Sep 2026) */
+.references .ref-tweet{margin:30px 0 0;display:flex;justify-content:center}
+.references .ref-tweet .twitter-tweet{margin:0 auto!important}
+.references blockquote.twitter-tweet{box-sizing:border-box;width:100%;max-width:550px;margin:0 auto;padding:20px 24px;border:1px solid var(--line);border-radius:16px;background:#fff;font-size:16px;line-height:1.5;color:#202220}
+.references blockquote.twitter-tweet p{margin:0 0 10px}
+.references blockquote.twitter-tweet a{color:#1d9bf0;text-decoration:none}
+.references .ref-note{margin:18px auto 0;max-width:550px;text-align:center;font-size:13px;line-height:1.5;color:var(--muted)}
